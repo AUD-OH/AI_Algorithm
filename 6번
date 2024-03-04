@@ -1,0 +1,7 @@
+def solution(age):
+    birth_year = 2022 - age + 1
+    return birth_year
+
+# 입출력 예시 테스트
+print(solution(40))  # 출력: 1983
+print(solution(23))  # 출력: 2000
