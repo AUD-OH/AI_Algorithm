@@ -1,0 +1,15 @@
+def solution(angle):
+    if angle > 0 and angle < 90:
+        return 1
+    elif angle == 90:
+        return 2
+    elif angle > 90 and angle < 180:
+        return 3
+    else:
+        return 4
+
+# 입출력 예시 테스트
+print(solution(45))   # 출력: 1 (예각)
+print(solution(90))   # 출력: 2 (직각)
+print(solution(120))  # 출력: 3 (둔각)
+print(solution(180))  # 출력: 4 (평각)
