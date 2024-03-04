@@ -1,0 +1,9 @@
+def solution(n):
+    sum_of_even = 0
+    for i in range(2, n+1, 2):  # 2부터 n까지의 짝수를 반복하여 더합니다.
+        sum_of_even += i
+    return sum_of_even
+
+# 입출력 예시 테스트
+print(solution(5))   # 출력: 6 (2 + 4)
+print(solution(10))  # 출력: 30 (2 + 4 + 6 + 8 + 10)
