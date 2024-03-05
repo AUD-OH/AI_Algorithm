@@ -1,0 +1,14 @@
+def solution(array, height):
+    taller_count = 0
+    
+    for person_height in array:
+        if person_height > height
+        taller_count +=1
+        
+    return taller_count
+
+
+array = [160, 165, 170, 155, 175]
+height = 162
+
+print(solution(array, height))
