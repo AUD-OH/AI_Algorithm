@@ -1,0 +1,2 @@
+def solution (pizza eaters)
+  return (pizza eaters - 1)//7 + 1
