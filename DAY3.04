@@ -1,0 +1,2 @@
+def solution(slice, pizza eaters)
+  return ((n-1) // slice) +1
